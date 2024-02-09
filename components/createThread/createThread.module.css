@@ -1,0 +1,23 @@
+/** @format */
+
+.profileImage {
+	border-radius: 50%;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.text {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.subConatiner {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
