@@ -14,6 +14,7 @@
 .text {
 	font-size: 18px;
 	font-weight: 400;
+	color: var(--secondary-font-color);
 }
 
 .subConatiner {
