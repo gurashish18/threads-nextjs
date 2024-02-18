@@ -19,11 +19,13 @@ export default function Navbar() {
 			<div className={styles.menu}>
 				{menuOptions.map((menuOption) => (
 					<div key={menuOption.id} className={styles.nav_item}>
-						{React.createElement(menuOption.icon.render)}
+						<div className={styles.icon}>
+							{React.createElement(menuOption.icon.render)}
+						</div>
 					</div>
 				))}
 			</div>
-			<Bars2Icon className={styles.nav_item} />
+			<Bars2Icon className={styles.icon} />
 		</div>
 	);
 }

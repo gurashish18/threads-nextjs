@@ -42,6 +42,7 @@ export default function Post({ post }) {
 						alt="User"
 					/>
 				</div>
+				<div className={styles.line}></div>
 			</div>
 			<div className={styles.cardRight}>
 				<div className={styles.content}>

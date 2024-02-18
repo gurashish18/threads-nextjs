@@ -3,16 +3,31 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 15px;
+	/* padding: 20px; */
+	height: 100px;
 }
 .menu {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 80px;
+	height: 100%;
 }
 .nav_item {
-	height: 50px;
-	width: 50px;
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
 	cursor: pointer;
+	height: 100%;
+	width: 100%;
+}
+
+.icon {
+	height: 40px;
+	width: 40px;
+}
+
+.nav_item:hover {
+	background-color: var(--hover-background-color);
 }
